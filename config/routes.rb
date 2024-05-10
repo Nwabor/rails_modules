@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  namespace :authors do
-    resources :articles
-    resources :users
+  namespace :api do
+    namespace :v1 do
+      resources :articles
+      resources :users
+    end
   end
   namespace :landing do
     get "home/index"
