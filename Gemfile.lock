@@ -171,7 +171,7 @@ GEM
     parser (3.3.1.0)
       ast (~> 2.4.1)
       racc
-    pg (1.5.6)
+    pg (1.5.7)
     psych (5.1.2)
       stringio
     puma (6.4.2)
@@ -277,7 +277,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   jbuilder
   jsbundling-rails
-  pg (~> 1.1)
+  pg (~> 1.5)
   puma (>= 5.0)
   rails!
   rubocop-rails-omakase
